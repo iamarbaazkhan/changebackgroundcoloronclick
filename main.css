@@ -1,0 +1,24 @@
+body{
+    min-height:100vh;
+    justify-content: center;
+    align-items:center;
+    display:flex;
+}
+
+
+.closebtn{
+     padding:10px 10px;
+     background:silver;
+     font-size:1.5rem;
+     color:white;
+     border:3px solid #fefefe;
+     border-radius:20px;
+     text-transform: capitalize;
+     cursor: pointer;
+     outline:none;
+}
+
+
+.closebtn:hover{
+    background:rgba(0,0,0,0.8)
+}
